@@ -1,0 +1,58 @@
+body{
+background-color: rgb(92, 170, 129);
+
+
+}
+
+.table {
+display: grid;
+  grid-template-areas:
+    "menu header"
+    "menu content"
+    "footer footer";
+  grid-template-columns: 1fr 3fr;
+  gap: 3px;
+  background-color: rgb(138, 62, 24);
+  padding: 5px;
+}
+
+.table div {
+  background-color: white;
+  padding: 10px;
+}
+.table div.header {
+  grid-area: header;
+  text-align: center;
+}
+.table div.menu {
+  grid-area: menu;
+}
+.table div.content {
+  grid-area: content;
+}
+.table div.footer {
+  grid-area: footer;
+  text-align: center;  
+}
+
+
+.table1  {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.table1 > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.table1 div {
+grid-auto-flow: column;
+
+}
