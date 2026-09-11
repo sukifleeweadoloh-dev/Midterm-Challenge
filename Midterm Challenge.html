@@ -14,7 +14,14 @@
         <div class="table">
 
           <div class="header"> 
-            <h1> Palestine Explorer </h1>
+            <h1> <i>Palestine Explorer </i></h1>
+
+             <search id="search">
+                    <form action="https://www.google.com/search" method="get">
+                      <input type="text" name="q" placeholder="Search to google">
+                      <button type="submit">Search</button>
+                    </form>
+                  </search>
 
           </div>
 
@@ -25,13 +32,75 @@
              <rect width="40" height="30" x="30" y="35" style="fill:rgb(251, 251, 255);
              stroke-width:8;stroke:rgb(2, 127, 23)" /> 
             </svg> 
-            <a  href="https://en.wikipedia.org/wiki/Palestinea">Palestine</a>
+
+            <a  href="https://en.wikipedia.org/wiki/Palestine">Palestine</a><br>
+            <br>
+            <br>
+            <form>
+                      <label for="search">Search Governorates:</label>
+                      <input type="text" id="3" name="Bethlehem" placeholder="Enter governorates name">
+                      <button type="submit">Search</button>
+            </form>
+
+            <br>
+            <br>
+
+          <nav>
+            <a href="#1 ">intro</a><br>
+            <a href="#2 ">Governorates</a><br>
+            <ul>
+             <li><a href="#3 ">Bethlehem</a><br></li>
+             <li><a href="#4 ">Hebron</a><br></li>
+             <li><a href="#5 ">Jenin</a><br></li>
+             <li><a href="#6 ">Nablus</a><br></li>
+             <li><a href="#7 ">Jericho</a><br></li>
+             <li><a href="#8 ">Jerusalem</a><br></li>
+             <li><a href="#9 ">Qalqilya</a><br></li>
+             <li><a href="#10 ">Ramallah and al-Bireh</a><br></li>
+             <li><a href="#11 ">Salfit</a><br></li>
+             <li><a href="#12 ">Tubas</a><br></li>
+             <li><a href="#13">Tulkarm</a><br></li>
+             <li><a href="#14 ">Deir al-Balah</a><br></li>
+             <li><a href="#15 ">Gaza</a><br></li>
+             <li><a href="#16 ">Yunis</a><br></li>
+             <li><a href="#17 ">North Gaza</a><br></li>
+             <li><a href="#18 ">Rafah</a><br></li>
+            </ul>
+          </nav>
+
+
+
+          <section id="contact">
+              <h2>Contact</h2>
+              <form>
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" required>
+
+                <label for="subject">Subject</label>
+                <input id="subject" name="subject" type="text" required>
+
+                <label for="phone">Phone</label>
+                <input id="phone" name="phone" type="tel" required>
+
+                <label for="email">Email (@ftu.ac.th)</label>
+                <input id="email" name="email" type="email"
+                  pattern="[A-Za-z0-9._%+-]+@ftu\.ac\.th" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Submit</button>
+              </form>
+           </section>
+
 
           </div>
+            
 
           <div class="content"> 
             <ul>
              <li>
+              <section id="1">
               <h2>Introduction;</h2>
               <p>Palestine, officially the State of Palestine,is a country in the
                  <a href="https://en.wikipedia.org/wiki/Southern_Levant#Geography">
@@ -45,29 +114,269 @@
                 These territories are collectively known as the Palestinian territories, 
                 or occupied Palestinian territory.
               </p>
+              </section>
              </li>
 
               <li>
-                <h2>Palestinian Governorates;</h2>
+                <h2>Palestinian Governorates;</h2> 
+
+                <section id="2">
+                  <p>Palestine is divided into 16 governorates, 11 in the West Bank and 5 in the Gaza Strip. 
+                    The governorates are further divided into municipalities, 
+                    village councils, and refugee camps. The governorates are listed below, 
+                    along with their populations, areas, regions, and locations.</p>
+
                 <div class="table1">
-                    <div class="item1"><h3>Governorates</h3></div>
-                    <div class="item2"><h3>poppular</h3></div>
-                    <div class="item3">3</div>
-                    <div class="item4">4</div>
-                    <div class="item1">1</div>
-                    <div class="item2">2</div>
-                    <div class="item3">3</div>
-                    <div class="item4">4</div>
+
+                  <section id="2.1">
+                    <div class="Governorates">Governorates</div>
+                    <div class="population">Population</div>
+                    <div class="area">Area (km^2)</div>
+                    <div class="region">Region</div>
+                    <div class="location">Locati5on</div>
+                  </section>
+
+                  <section id="3">
+                    <div class="Governorates"><a href="https://en.wikipedia.org/wiki/Bethlehem_Governorate">
+                      Bethlehem Governorate</a></div>
+                    <div class="population">217400 population</div>
+                    <div class="area">644 km^2</div>
+                    <div class="region">West Bank</div>
+                    <div class="location">
+                      <a href="https://en.wikipedia.org/wiki/File:Bethlehem_in_Palestine.svg" >
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Bethlehem_in_Palestine.svg/250px-Bethlehem_in_Palestine.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" 
+                      alt="Bethlehem">
+                      </a>
+                    </div>
+                  </section>
+
+                  <section id="4">
+                    <div class="Governorates"><a href="https://en.wikipedia.org/wiki/Hebron_Governorate">
+                      Hebron Governorate</a></div>
+                    <div class="population">711223 population</div>
+                    <div class="area">1060 km^2</div>
+                    <div class="region">West Bank</div>
+                    <div class="location">
+                      <a href="https://en.wikipedia.org/wiki/File:Hebron_in_Palestine.svg" >
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Hebron_in_Palestine.svg/250px-Hebron_in_Palestine.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" 
+                      alt="Hebron">
+                      </a>
+                    </div>
+                  </section>
+
+                  <section id="5">
+                    <div class="Governorates"><a href="https://en.wikipedia.org/wiki/Jenin_Governorate">
+                      Jenin Governorate</a></div>
+                    <div class="population">314866 population</div>
+                    <div class="area">583 km^2</div>
+                    <div class="region">West Bank</div>
+                    <div class="location">
+                      <a href="https://en.wikipedia.org/wiki/File:Jenin_in_Palestine.svg" >
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Jenin_in_Palestine.svg/250px-Jenin_in_Palestine.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" 
+                      alt="Jenin">
+                      </a>
+                    </div>
+                  </section>
+
+                  <section id="6">
+                    <div class="Governorates"><a href="https://en.wikipedia.org/wiki/Jericho_Governorate">
+                      Jericho Governorate</a></div>
+                    <div class="population">50002 population</div>
+                    <div class="area">608 km^2</div>
+                    <div class="region">West Bank</div>
+                    <div class="location">
+                      <a href="https://en.wikipedia.org/wiki/File:Jericho_in_Palestine.svg" >
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Jericho_in_Palestine.svg/250px-Jericho_in_Palestine.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" 
+                      alt="Jericho">
+                      </a>
+                    </div>
+                  </section>
+
+                  <section id="7">
+                    <div class="Governorates"><a href="https://en.wikipedia.org/wiki/Jerusalem_Governorate">
+                      Jerusalem Governorate</a></div>
+                    <div class="population">435483 population</div>
+                    <div class="area">344 km^2</div>
+                    <div class="region">West Bank</div>
+                    <div class="location">
+                      <a href="https://en.wikipedia.org/wiki/File:Jerusalem_in_Palestine.svg" >
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Jerusalem_in_Palestine_%28%2Bclaimed_hatched%29.svg/250px-Jerusalem_in_Palestine_%28%2Bclaimed_hatched%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" 
+                      alt="Jerusalem">
+                      </a>
+                    </div>
+                  </section>
+                  
+                  <section id="8">
+                    <div class="Governorates"><a href="https://en.wikipedia.org/wiki/Nablus_Governorate">
+                      Nablus Governorate</a></div>
+                    <div class="population">388321 population</div>
+                    <div class="area">592 km^2</div>
+                    <div class="region">West Bank</div>
+                    <div class="location">
+                      <a href="https://en.wikipedia.org/wiki/File:Nablus_in_Palestine.svg" >
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Nablus_in_Palestine.svg/250px-Nablus_in_Palestine.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" 
+                      alt="Nablus">
+                      </a>
+                    </div>
+                  </section>
+
+                  <section id="9">
+                    <div class="Governorates"><a href="https://en.wikipedia.org/wiki/Qalqilya_Governorate">
+                      Qalqilya Governorate</a></div>
+                    <div class="population">112400 population</div>
+                    <div class="area">164 km^2</div>
+                    <div class="region">West Bank</div>
+                    <div class="location">
+                      <a href="https://en.wikipedia.org/wiki/File:Qalqilya_in_Palestine.svg" >
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Qalqilya_in_Palestine.svg/250px-Qalqilya_in_Palestine.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" 
+                      alt="Qalqilya">
+                      </a>
+                    </div>
+                  </section>
+
+                  <section id="10">
+                    <div class="Governorates"><a href="https://en.wikipedia.org/wiki/Ramallah_and_al-Bireh_Governorate">
+                      Ramallah and al-Bireh Governorate</a></div>
+                    <div class="population">328861 population</div>
+                    <div class="area">844 km^2</div>
+                    <div class="region">West Bank</div>
+                    <div class="location">
+                      <a href="https://en.wikipedia.org/wiki/File:Ramallah_and_al-Bireh_in_Palestine.svg" >
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Ramallah_and_Al-Bireh_in_Palestine_%28%2Bclaimed_hatched%29.svg/250px-Ramallah_and_Al-Bireh_in_Palestine_%28%2Bclaimed_hatched%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" 
+                      alt="Ramallah and al-Bireh">
+                      </a>
+                    </div>
+                  </section>
+
+                  <section id="11">
+                    <div class="Governorates"><a href="https://en.wikipedia.org/wiki/Salfit_Governorate">
+                      Salfit Governorate</a></div>
+                    <div class="population">75444 population</div>
+                    <div class="area">191 km^2</div>
+                    <div class="region">West Bank</div>
+                    <div class="location">
+                      <a href="https://en.wikipedia.org/wiki/File:Salfit_in_Palestine.svg" >
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Salfit_in_Palestine.svg/250px-Salfit_in_Palestine.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" 
+                      alt="Salfit">
+                      </a>
+                    </div>
+                  </section>
+
+                  <section id="12">
+                    <div class="Governorates"><a href="https://en.wikipedia.org/wiki/Tubas_Governorate">
+                      Tubas Governorate</a></div>
+                    <div class="population">60927 population</div>
+                    <div class="area">372 km^2</div>
+                    <div class="region">West Bank</div>
+                    <div class="location">
+                      <a href="https://en.wikipedia.org/wiki/File:Tubas_in_Palestine.svg" >
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Tubas_in_Palestine.svg/250px-Tubas_in_Palestine.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" 
+                      alt="Tubas">
+                      </a>
+                    </div>
+                  </section>
+
+                  <section id="13">
+                    <div class="Governorates"><a href="https://en.wikipedia.org/wiki/Tulkarm_Governorate">
+                      Tulkarm Governorate</a></div>
+                    <div class="population">186760 population</div>
+                    <div class="area">239 km^2</div>
+                    <div class="region">West Bank</div>
+                    <div class="location">
+                      <a href="https://en.wikipedia.org/wiki/File:Tulkarm_in_Palestine.svg" >
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Tulkarm_in_Palestine.svg/250px-Tulkarm_in_Palestine.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" 
+                      alt="Tulkarm">
+                      </a>
+                    </div>
+                  </section>
+
+                  <section id="14">
+                    <div class="Governorates"><a href="https://en.wikipedia.org/wiki/Deir_al-Balah_Governorate">
+                      Deir al-Balah Governorate</a></div>
+                    <div class="population">273200 population</div>
+                    <div class="area">56 km^2</div>
+                    <div class="region">Gaza</div>
+                    <div class="location">
+                      <a href="https://en.wikipedia.org/wiki/File:Deir_al-Balah_in_Palestine.svg" >
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Deir_al-Balah_in_Palestine.svg/250px-Deir_al-Balah_in_Palestine.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" 
+                      alt="Deir al-Balah">
+                      </a>
+                    </div>
+                  </section>
+
+                  <section id="15">
+                    <div class="Governorates"><a href="https://en.wikipedia.org/wiki/Gaza_Governorate">
+                      Gaza Governorate</a></div>
+                    <div class="population">652597 population</div>
+                    <div class="area">70 km^2</div>
+                    <div class="region">Gaza</div>
+                    <div class="location">
+                      <a href="https://en.wikipedia.org/wiki/File:Gaza_in_Palestine.svg" >
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Gaza_in_Palestine.svg/250px-Gaza_in_Palestine.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" 
+                      alt="Gaza">
+                      </a>
+                    </div>
+                  </section>
+
+                  <section id="16">
+                    <div class="Governorates"><a href="https://en.wikipedia.org/wiki/Khan_Yunis_Governorate">
+                      Khan Yunis Governorate</a></div>
+                    <div class="population">370638 population</div>
+                    <div class="area">108 km^2</div>
+                    <div class="region">Gaza</div>
+                    <div class="location">
+                      <a href="https://en.wikipedia.org/wiki/File:Khan_Yunis_in_Palestine.svg" >
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Khan_Yunis_in_Palestine.svg/250px-Khan_Yunis_in_Palestine.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" 
+                      alt="Khan Yunis">
+                      </a>
+                    </div>
+                  </section>
+
+                  <section id="17">
+                    <div class="Governorates"><a href="https://en.wikipedia.org/wiki/North_Gaza_Governorate">
+                      North Gaza Governorate</a></div>
+                    <div class="population">368978 population</div>
+                    <div class="area">61 km^2</div>
+                    <div class="region">Gaza</div>
+                    <div class="location">
+                      <a href="https://en.wikipedia.org/wiki/File:North_Gaza_in_Palestine.svg" >
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/North_Gaza_in_Palestine.svg/250px-North_Gaza_in_Palestine.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" 
+                      alt="North Gaza">
+                      </a>
+                    </div>
+                  </section>
+
+                  <section id="18">
+                    <div class="Governorates"><a href="https://en.wikipedia.org/wiki/Rafah_Governorate">
+                      Rafah Governorate</a></div>
+                    <div class="population">233878 population</div>
+                    <div class="area">65 km^2</div>
+                    <div class="region">Gaza</div>
+                    <div class="location">
+                      <a href="https://en.wikipedia.org/wiki/File:Rafah_in_Palestine.svg" >
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Rafah_in_Palestine.svg/250px-Rafah_in_Palestine.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" 
+                      alt="Rafah">
+                      </a>
+                    </div>
+                  </section>
+
+                  <section id="19">
+                  
+                    
+                    </form>
+                  </section>
+                  
                 </div>
-                
+              </section>
               </li>
             </ul>
-
           </div>
 
           <div class="footer"> 
-
+              <p>© 2025 sukiflee waedorloh – ID: 671431008</p>
+              <a href="#top">Back to top</a>
           </div>
+
         </div>
     
     </body>

@@ -1,20 +1,19 @@
 body{
-background-color: rgb(92, 170, 129);
-
+  background-color: rgb(151, 64, 37);
 
 }
 
 .table {
-display: grid;
+  display: grid;
   grid-template-areas:
     "menu header"
     "menu content"
     "footer footer";
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 0.4fr auto;
   gap: 3px;
-  background-color: rgb(138, 62, 24);
+  background-color: rgb(87, 148, 47);
   padding: 5px;
-}
+  }
 
 .table div {
   background-color: white;
@@ -35,24 +34,36 @@ display: grid;
   text-align: center;  
 }
 
-
-.table1  {
+.table1 {
   display: grid;
+  background-color: rgb(153, 111, 12);
   grid-template-columns: auto auto auto auto;
-  grid-template-rows: auto auto;
-  grid-gap: 10px;
-  background-color: #2196F3;
+  padding: auto;
+  gap: 3px;
+}
+
+.table1 div.Governorates {
+  background-color: rgb(98, 143, 0);
   padding: 10px;
 }
 
-.table1 > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
+.table1 div.area {
+  background-color: rgb(177, 186, 16);
+  padding: 10px;
 }
 
-.table1 div {
-grid-auto-flow: column;
-
+.table1 div.population {
+  background-color: rgb(159, 112, 11);
+  padding: 10px;
 }
+
+.table1 div.region {
+  background-color: rgb(159, 113, 6);
+  padding: 10px;
+}
+
+.table1 div.location {
+  background-color: rgb(135, 76, 9);
+  padding: 10px;
+}
+
