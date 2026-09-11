@@ -67,3 +67,32 @@ body{
   padding: 10px;
 }
 
+@media screen {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and(max-width: 480px) {
+  .table {
+    grid-template-areas:
+      "header"
+      "menu"
+      "content"
+      "footer";
+    grid-template-columns: auto;
+  }
+  
+}
+
+@media screen and(max-width: 780px) {
+  .table1 {
+    grid-template-areas:
+      "header"
+      "menu"
+      "content"
+      "footer";
+    grid-template-columns: auto;
+  }
+  
+}
+
